@@ -1,0 +1,125 @@
+/* ==========================
+   App Layout
+========================== */
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================
+   Workspace
+========================== */
+
+.workspace {
+  flex: 1;
+  display: flex;
+}
+
+/* ==========================
+   Header
+========================== */
+
+.header {
+  padding: 20px;
+  background: #1f2937;
+  color: white;
+  text-align: center;
+}
+
+/* ==========================
+   Sidebar
+========================== */
+
+.sidebar {
+  width: 220px;
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+/* ==========================
+   Editor
+========================== */
+
+.editor {
+  flex: 1;
+  background: #1e1e1e;
+  color: white;
+  padding: 20px;
+}
+
+/* ==========================
+   AI Chat
+========================== */
+
+.chat {
+  width: 320px;
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+/* ==========================
+   Status Bar
+========================== */
+
+.statusbar {
+  padding: 10px 20px;
+  background: #1f2937;
+  color: white;
+}
+/* Explorer */
+
+.tree {
+  margin-top: 20px;
+}
+
+.folder-item {
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.folder-item:hover {
+  background: #243145;
+}
+
+/* Editor Tabs */
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: #2a2a2a;
+  border-bottom: 1px solid #444;
+}
+
+.tab {
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: #333;
+}
+
+.tab.active {
+  background: #4b5563;
+}
+
+.editor-body {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.welcome-actions {
+  margin-top: 25px;
+}
+
+.welcome-actions button {
+  margin: 0 10px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

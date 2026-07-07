@@ -1,8 +1,9 @@
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import Editor from "./components/Editor";
-import AIChat from "./components/AIChat";
-import StatusBar from "./components/StatusBar";
+import Header from "./components/layout/Header";
+import StatusBar from "./components/layout/StatusBar";
+
+import Explorer from "./components/explorer/Explorer";
+import Editor from "./components/editor/Editor";
+import AIChat from "./components/ai/AIChat";
 
 import "./styles/layout.css";
 
@@ -12,7 +13,7 @@ function App() {
       <Header />
 
       <div className="workspace">
-        <Sidebar />
+        <Explorer />
 
         <Editor />
 
